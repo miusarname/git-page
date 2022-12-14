@@ -1,4 +1,10 @@
+/* export class nombre de clase {
+  render(){
+    return codigo HTML
+  }
+} */
 import PropTypes from "prop-types";
+import { Component } from "react";
 
 /* barra de navegacion de la pagina  web */
 export function Navbar(props) {
@@ -27,18 +33,10 @@ Navbar.defaultProps={
 export function Hero(props){
   return <section id="Hero">
     <h1>{props.title}</h1><br></br>
-    <p>{props.Text}</p>
+    <p>{props.text}</p>
   </section>
 }
- 
-export function app() {
-  <section>
-  <div className="container">
-    <h2>
-      Habilidades Y Proyectos
-    </h2>
-    
-  </div>
-  </section>
-}
+
+
+
 
