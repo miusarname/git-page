@@ -6,13 +6,13 @@ export function Navbar(props) {
     <div className="Contenedor_Barra_de_Navegacion">
       <nav className="Navbar">
         <li className={props.clase}>
-          <a>{props.title1}</a>
+          <a href={props.link}>{props.title1}</a>
         </li>
         <li className={props.clase}>
-          <a>{props.title2}</a>
+          <a href={props.link}>{props.title2}</a>
         </li>
         <li className={props.clase}>
-          <a>{props.title3}</a>
+          <a href={props.link}>{props.title3}</a>
         </li>
       </nav>
     </div>
@@ -20,7 +20,25 @@ export function Navbar(props) {
 }
 
 Navbar.defaultProps={
-  clase :"esta es una clase"
+  clase :"esta es una clase",
+  link : "#"
 }
 
+export function Hero(props){
+  return <section id="Hero">
+    <h1>{props.title}</h1><br></br>
+    <p>{props.Text}</p>
+  </section>
+}
+ 
+export function app() {
+  <section>
+  <div className="container">
+    <h2>
+      Habilidades Y Proyectos
+    </h2>
+    
+  </div>
+  </section>
+}
 
