@@ -1,11 +1,15 @@
 import PropTypes from "prop-types";
 import { Component } from "react";
+import {AiOutlineCode} from "react-icons/ai"
 
 export function NavBar(props){
   return<nav class="navbar" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
-    <a class="navbar-item" href={props.linkOfImage}>
-      <img src={props.linkImage} width="112" height="28"/>
+    <a class="navbar-item" href={props.linkOfImage} width="112" height="28" >
+      <a class="button is-light">
+            OSCAR M ALVAREZ G
+          </a>
+      {/* <img src={props.linkImage} href="" width="112" height="28"/> */}
     </a>
 
     <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
@@ -91,6 +95,21 @@ export function Present(props){
     {props.text}
   </div>
 </article>
+</div>
+}
+
+export function Habilidades(){
+  return<div class="box m-6">
+    <h1 className="has-text-centered"><strong className="is-size-3">De manera general</strong></h1>
+  <div className="columns is-centered">
+    <div className="column">
+    <span>
+    <AiOutlineCode className="is-size-3 has-text-centered"/>
+    </span>
+    </div>
+    <div className="column"></div>
+    <div className="column"></div>
+  </div>
 </div>
 }
 
