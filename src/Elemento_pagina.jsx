@@ -37,6 +37,13 @@ export function Hero(props){
   </section>
 }
 
+export function ListItem(props){
+  return <div>
+    <a>
+      <img src={props.linkImage}></img>
+    </a>
+  </div>
+}
 
 
 
