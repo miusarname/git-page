@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { Navbar,Hero,app,ListItem } from "./Elemento_pagina";
+import { Navbar,Hero,app,ListItem,Formulario } from "./Elemento_pagina";
 
 const rootElement = document.getElementById("root");
 const root = ReactDOM.createRoot(rootElement);
