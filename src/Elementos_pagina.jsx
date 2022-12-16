@@ -1,6 +1,7 @@
 import PropTypes from "prop-types";
 import { Component } from "react";
 import {AiOutlineCode} from "react-icons/ai"
+import {FaLaptopCode,FaVrCardboard} from "react-icons/fa"
 
 export function NavBar(props){
   return<nav class="navbar" role="navigation" aria-label="main navigation">
@@ -87,7 +88,7 @@ export function Hero(props){
 
 export function Present(props){
   return <div class="notification is-white p-6 m-6">
-  <article class="message is-primary ">
+  <article class="message is-primary is-large">
   <div class="message-header">
     {props.header}
   </div>
@@ -101,14 +102,28 @@ export function Present(props){
 export function Habilidades(){
   return<div class="box m-6">
     <h1 className="has-text-centered"><strong className="is-size-3">De manera general</strong></h1>
-  <div className="columns is-centered">
+  <div className="columns is-centered pt-6">
     <div className="column">
     <span>
-    <AiOutlineCode className="is-size-3 has-text-centered"/>
+      <li className="has-text-centered">
+    <AiOutlineCode className="is-size-3 has-content-centered "/>
+    </li>
     </span>
     </div>
-    <div className="column"></div>
-    <div className="column"></div>
+    <div className="column">
+    <span>
+      <li className="has-text-centered">
+    <FaLaptopCode className="is-size-3 has-content-centered"/>
+    </li>
+    </span>
+    </div>
+    <div className="column">
+    <span>
+      <li className="has-text-centered">
+    <FaVrCardboard className="is-size-3 has-content-centered"/>
+    </li>
+    </span>
+    </div>
   </div>
 </div>
 }
