@@ -99,9 +99,9 @@ export function Present(props){
 </div>
 }
 
-export function Habilidades(){
+export function Habilidades(props){
   return<div class="box m-6">
-    <h1 className="has-text-centered"><strong className="is-size-3">De manera general</strong></h1>
+    <h1 className="has-text-centered"><strong className="is-size-3">{props.principaltitle}</strong></h1>
   <div className="columns is-centered pt-6">
     <div className="column">
     <span>
@@ -109,6 +109,19 @@ export function Habilidades(){
     <AiOutlineCode className="is-size-3 has-content-centered "/>
     </li>
     </span>
+    <h1 className="subtitle has-text-centered">{props.title1}</h1>
+    <p className="has-text-centered pt-5"> {props.contentb1}</p>
+    <p className="has-text-centered pt-5"> {props.contentb12}</p>
+    <p className="has-text-centered pt-5"> {props.contentb13}</p>
+    <p className="has-text-centered pt-6"> {props.contentb14}</p>
+    <ul>
+      <li className="has-text-centered">{props.li1}</li>
+      <li className="has-text-centered">{props.li12}</li>
+      <li className="has-text-centered">{props.li13}</li>
+      <li className="has-text-centered">{props.li14}</li>
+      <li className="has-text-centered">{props.li15}</li>
+      <li className="has-text-centered">{props.li16}</li>
+    </ul>
     </div>
     <div className="column">
     <span>
@@ -116,6 +129,16 @@ export function Habilidades(){
     <FaLaptopCode className="is-size-3 has-content-centered"/>
     </li>
     </span>
+    <h1 className="subtitle has-text-centered">{props.title2}</h1>
+    <p className="has-text-centered pt-5"> {props.contentb2}</p>
+    <p className="has-text-centered pt-5"> {props.contentb22}</p>
+    <p className="has-text-centered pt-5"> {props.contentb23}</p>
+    <p className="has-text-centered pt-5"> {props.contentb24}</p>
+    <ul>
+      <li className="has-text-centered">{props.li2}</li>
+      <li className="has-text-centered">{props.li22} </li>
+      <li className="has-text-centered">{props.li23}</li>
+    </ul>
     </div>
     <div className="column">
     <span>
@@ -123,9 +146,23 @@ export function Habilidades(){
     <FaVrCardboard className="is-size-3 has-content-centered"/>
     </li>
     </span>
+    <h1 className="subtitle is-spaced has-text-centered">{props.title3}</h1>
+    <p className="has-text-centered pt-5"> {props.contentb3}</p>
+    <p className="has-text-centered pt-5"> {props.contentb32}</p>
+    <p className="has-text-centered pt-5"> {props.contentb33}</p>
+    <p className="has-text-centered pt-6"> {props.contentb34}</p>
+    <ul>
+      <li className="has-text-centered">{props.li3}</li>
+      <li className="has-text-centered">{props.li32}</li>
+      <li className="has-text-centered">{props.li33}</li>
+    </ul>
     </div>
   </div>
 </div>
+}
+
+export function HabilidadesPreset(){
+  return<Habilidades principaltitle="De manera general" title1="Habilidades Generales" title2="Proyectos (de manera general)" title3="Vision (Generalidades)" contentb1="Me gusta codificar cosas desde cero y disfruto dando vida a las ideas en el navegador."   contentb12='"Lenguajes de Programacion"' contentb13="HTML, CSS, Sass, Git,JQuery,JS,React,Redux.js,etc..." contentb2="Realmente me preocupo por las personas y me encanta ayudar a otros programadores a trabajar en su oficio." contentb22="Enfoque a la hora de hacer proyectos" contentb23="suelo tener un rumbo claro que desarrollo en el codigo; no voy con rodeos ni complicaciones absurdas antes bien trato de se concreto y certero..." contentb3='Suele por lo general pensar que " Las soluciones van en vici y nosotros corriendo" por tanto el empeño es importante' contentb32="Preferencia a la hora de hacer proyectos" contentb33="Me gusta a la hora de trabajar tener objetivos y fines claros" contentb14="Dev Tools:" contentb34="Al inciar un proyecto:" contentb24="Proyectos:" li1="Vs Code" li12="React" li13="HTML" li14="GitHub" li15="Bootstrap" li16="Entre Otros..." li2="Calculadora Js" li22="Bateria React" li23="Pagina web (HTML & CSS)" li3="Growth Thinking" li32="self-learning thinking" li33="leadership thought"/>
 }
 
  export function Formulario(props){
