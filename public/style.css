@@ -6,3 +6,12 @@ li{
     padding-bottom: 60px;
     padding-top: 60px;
 }
+
+.mj{
+    color: blueviolet;
+}
+
+.mj:hover{
+    cursor: pointer;
+    color: rgb(143, 55, 226);
+}

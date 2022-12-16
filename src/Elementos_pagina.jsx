@@ -111,9 +111,9 @@ export function Habilidades(props){
     </span>
     <h1 className="subtitle has-text-centered">{props.title1}</h1>
     <p className="has-text-centered pt-5"> {props.contentb1}</p>
-    <p className="has-text-centered pt-5"> {props.contentb12}</p>
+    <p className="has-text-centered pt-5 mj"> {props.contentb12}</p>
     <p className="has-text-centered pt-5"> {props.contentb13}</p>
-    <p className="has-text-centered pt-6"> {props.contentb14}</p>
+    <p className="has-text-centered pt-6 mj"> {props.contentb14}</p>
     <ul>
       <li className="has-text-centered">{props.li1}</li>
       <li className="has-text-centered">{props.li12}</li>
@@ -131,13 +131,16 @@ export function Habilidades(props){
     </span>
     <h1 className="subtitle has-text-centered">{props.title2}</h1>
     <p className="has-text-centered pt-5"> {props.contentb2}</p>
-    <p className="has-text-centered pt-5"> {props.contentb22}</p>
+    <p className="has-text-centered pt-5 mj"> {props.contentb22}</p>
     <p className="has-text-centered pt-5"> {props.contentb23}</p>
-    <p className="has-text-centered pt-5"> {props.contentb24}</p>
+    <p className="has-text-centered pt-5 mj"> {props.contentb24}</p>
     <ul>
       <li className="has-text-centered">{props.li2}</li>
       <li className="has-text-centered">{props.li22} </li>
       <li className="has-text-centered">{props.li23}</li>
+      <li className="has-text-centered">{props.li24}</li>
+      <li className="has-text-centered">{props.li25}</li>
+      <li className="has-text-centered">{props.li26}</li>
     </ul>
     </div>
     <div className="column">
@@ -148,9 +151,9 @@ export function Habilidades(props){
     </span>
     <h1 className="subtitle is-spaced has-text-centered">{props.title3}</h1>
     <p className="has-text-centered pt-5"> {props.contentb3}</p>
-    <p className="has-text-centered pt-5"> {props.contentb32}</p>
+    <p className="has-text-centered pt-5 mj"> {props.contentb32}</p>
     <p className="has-text-centered pt-5"> {props.contentb33}</p>
-    <p className="has-text-centered pt-6"> {props.contentb34}</p>
+    <p className="has-text-centered pt-6 mj"> {props.contentb34}</p>
     <ul>
       <li className="has-text-centered">{props.li3}</li>
       <li className="has-text-centered">{props.li32}</li>
@@ -162,7 +165,7 @@ export function Habilidades(props){
 }
 
 export function HabilidadesPreset(){
-  return<Habilidades principaltitle="De manera general" title1="Habilidades Generales" title2="Proyectos (de manera general)" title3="Vision (Generalidades)" contentb1="Me gusta codificar cosas desde cero y disfruto dando vida a las ideas en el navegador."   contentb12='"Lenguajes de Programacion"' contentb13="HTML, CSS, Sass, Git,JQuery,JS,React,Redux.js,etc..." contentb2="Realmente me preocupo por las personas y me encanta ayudar a otros programadores a trabajar en su oficio." contentb22="Enfoque a la hora de hacer proyectos" contentb23="suelo tener un rumbo claro que desarrollo en el codigo; no voy con rodeos ni complicaciones absurdas antes bien trato de se concreto y certero..." contentb3='Suele por lo general pensar que " Las soluciones van en vici y nosotros corriendo" por tanto el empeño es importante' contentb32="Preferencia a la hora de hacer proyectos" contentb33="Me gusta a la hora de trabajar tener objetivos y fines claros" contentb14="Dev Tools:" contentb34="Al inciar un proyecto:" contentb24="Proyectos:" li1="Vs Code" li12="React" li13="HTML" li14="GitHub" li15="Bootstrap" li16="Entre Otros..." li2="Calculadora Js" li22="Bateria React" li23="Pagina web (HTML & CSS)" li3="Growth Thinking" li32="self-learning thinking" li33="leadership thought"/>
+  return<Habilidades principaltitle="De manera general" title1="Habilidades Generales" title2="Proyectos (de manera general)" title3="Vision (Generalidades)" contentb1="Me gusta codificar cosas desde cero y disfruto dando vida a las ideas en el navegador."   contentb12='"Lenguajes de Programacion"' contentb13="HTML, CSS, Sass, Git,JQuery,JS,React,Redux.js,etc..." contentb2="Realmente me preocupo por las personas y me encanta ayudar a otros programadores a trabajar en su oficio." contentb22="Enfoque a la hora de hacer proyectos" contentb23="suelo tener un rumbo claro que desarrollo en el codigo; no voy con rodeos ni complicaciones absurdas antes bien trato de se concreto y certero..." contentb3='Suele por lo general pensar que " Las soluciones van en vici y nosotros corriendo" por tanto el empeño es importante' contentb32="Preferencia a la hora de hacer proyectos" contentb33="Me gusta a la hora de trabajar tener objetivos y fines claros" contentb14="Dev Tools:" contentb34="Al inciar un proyecto:" contentb24="Proyectos:" li1="Vs Code" li12="React" li13="HTML" li14="GitHub" li15="Bootstrap" li16="Entre Otros..." li2="Calculadora Js" li22="Bateria React" li23="Pagina web (HTML & CSS)" li3="Growth Thinking" li32="self-learning thinking" li33="leadership thought" li24="Blog" li25="Pagina web tecnica" li26="Entre otros..."/>
 }
 
  export function Formulario(props){
