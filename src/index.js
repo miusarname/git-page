@@ -9,7 +9,9 @@ import {
   HabilidadesPreset,
   Portafolio,
   PortafolioPreset
+  
 } from "./Elementos_pagina";
+import {Colaboracion} from './Components/Component1'
 
 const rootElement = document.getElementById("root");
 const root = ReactDOM.createRoot(rootElement);
@@ -39,5 +41,6 @@ root.render(
     {/* Pongo "HabilidadesPreset" pues esta Habilidades pero para no poner tanto codigo y que quede imposible de leer preferi ponerlo en los elementos y traer solo un elemento con todo ya puesto */}
     <HabilidadesPreset />
     <PortafolioPreset/>
+    <Colaboracion/>
   </>
 );
